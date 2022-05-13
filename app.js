@@ -14,5 +14,5 @@
     let pixel = $(window).scrollTop()
     console.log( { pixel })
 
-    practica.currentTime = pixel / 500;
+    practica.currentTime = pixel / 1000;
 })
